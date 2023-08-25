@@ -144,3 +144,72 @@ main {
   color: #757575;
   font-size: 16px;
 }
+
+/* resume section styles here  */
+
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.resume .title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume .subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.resume .description {
+  color: #757575;
+  font-size: 16px;
+}
+
+.resume-button {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* contact styles here  */
+
+.contact {
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+  background: #fff8f3;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact .section-description {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input {
+  height: 64px;
+}
